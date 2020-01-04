@@ -1,69 +1,69 @@
-body{
-    background:#e9e9e9;
-    margin: 0 auto;
-    background-image: spikes.png;
-    background-size: cover;
-    background-image: url(spikes.png)
+html,
+body {
+  background: #e9e9e9;
+  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-image: url(spikes.png);
 }
 
-
-.header{
-    position: relative;
-    height: 50px;
-    background: #ffffff;
-    margin: 0;
-    top: 0;
-    color: #4aaaa5;
-    width: 100%;
-    padding-left: 25px;
+.header {
+  background: #ffffff;
+  color: #4aaaa5;
 }
 
-.nav-item{
-    float: right;
+.container {
+  height: 50px;
 }
 
-.nav-link-active{
-    float: right;
+p {
+  padding: 5px;
 }
 
-p{
-    padding: 5px;
+.card1 {
+  background-color: #4aaaa5;
+  color: white;
+  width: 150px;
+  text-align: center;
+  padding: 16px;
+  float: left;
 }
 
-.card1{
-    background-color: #4aaaa5;
-    color: white;
-    width: 150px;
-    position: relative;
-    float: left;
-    margin: 0 auto;
-    text-align: center;
-    padding: 16px;
+.navigation {
+  float: right;
 }
 
-.box{
-    width: 400px;
-    height: 600px;
-    margin: 0 auto;
-    background: white;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+ul {
+  display: flex;
+  list-style: none;
 }
 
-#bio-image{
-    float: left;
-    padding: 5px;
+li {
+  padding: 0px 10px;
 }
 
-#footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background: #666666;
-    text-align: center;
-    border-top: 8px solid #4aaaa5;
-    height: 25px;
-    flex-shrink: 0;
-    margin: 0;
+.box {
+  width: 400px;
+  height: 600px;
+  margin: 0 auto;
+  background: white;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 }
 
+#bio-image {
+  float: left;
+  padding: 5px;
+}
 
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #666666;
+  text-align: center;
+  border-top: 8px solid #4aaaa5;
+  height: 25px;
+  flex-shrink: 0;
+  margin: 0;
+}
