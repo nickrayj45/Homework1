@@ -12,13 +12,26 @@ header {
 .name {
   background-color: #4aaaa5;
   padding: 25px;
-  height: 50px;
+  height: 25px;
   margin: auto;
+}
+
+li {
+  list-style-type: none;
+  padding: 0px 10px;
+}
+
+.navigation {
+  float: right;
+}
+
+ul {
+  display: flex;
 }
 
 .header {
   position: relative;
-  height: 100px;
+  height: 75px;
   background: #ffffff;
 }
 
